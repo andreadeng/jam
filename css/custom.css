@@ -1,0 +1,336 @@
+body {
+	background: ;
+	color: white;
+}
+
+a {
+	color: red;
+}
+/** Video Background **/
+
+#video_background { position: absolute; bottom: 0px; right: 0px; min-width: 100%; min-height: 100%; width: auto; height: auto; z-index: -1000; overflow: hidden; }
+
+#video_pattern { background-image: url(../images/pattern.png); position: fixed; opacity: 0.8; left: 0px; top: 0px; width: 100%; height: 100%; z-index: 1; }
+
+
+/* message */
+#message{
+	font-size: 70px;
+	text-decoration: bold;
+	text-align: center;
+	color: white;
+	margin-top: 100px;
+}
+
+#location {
+	font-size: 24px;
+	text-align: center;
+	color: white;
+}
+
+/** Button **/
+#button{
+    background: black;
+    color: white;
+    font-size: 18px;
+    width: 180px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    padding-top: 13px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+#button:hover {
+    background: gray;
+    color: white;
+    cursor: pointer;
+}
+
+/* Carousel */
+
+#carousel-bar {
+	width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    padding-top: 12px;
+    text-align: center;
+}
+
+#carousel-bar:hover {
+	cursor: pointer;
+}
+
+#carousel-content {
+	display: ;
+	background-color: ;
+	height: 100%;
+}
+
+#carousel {
+	display: ;
+	background-color: ;
+}
+.day {
+	width: 120px;
+	height: 2000px;
+	background-color: #0066cc;
+	position: relative;
+}
+
+.busy {
+	background-color: gray;
+	cursor: default;
+}
+
+.free:hover {
+	background-color: #66ccff;
+	cursor: pointer;
+}
+
+.phrase {
+	padding-top: 15px;
+	text-align: center;
+	color: white;
+}
+
+.blank {
+	color: gray;
+}
+
+.num {
+	font-size: 60px;
+	text-align: center;
+	color: white;
+	margin-bottom: -10px;
+}
+
+/* Jam modal */
+
+/* Modal */
+#modal-container {
+display: none;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+position: fixed;
+z-index: 100;
+}
+
+#modal-overlay {
+position: fixed;
+background: rgba(0, 0, 0, 0.8);
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+z-index: 10;
+}
+
+#modal-box-wrapper {
+vertical-align: center;
+height: 260px;
+width: 100%;
+z-index: 50;
+}
+
+#modal-box {
+position: fixed;
+top: 45%;
+left: 33%;
+text-align: center;
+vertical-align: center;
+width: 450px;
+height: 250px;
+background: gray;
+z-index: 40;
+margin-left: auto;
+margin-right: auto;
+}
+
+.submitbox {
+	
+}
+
+#coming {
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	vertical-align: center;
+	width: 120px;
+	height: 33px;
+	margin-left: 40px;
+	padding-top: 5px;
+	margin-top: 25px;
+	background-color: #0066cc;
+	margin-left: 163px;
+	cursor: pointer;
+}
+
+#nevermind {
+	margin-top: 8px;
+	text-align: center;
+	cursor: pointer;
+}
+
+
+input {
+	text-align: center;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	height: 40px;
+	font-size: 15px;
+	padding: 10px;
+	margin-top: 18px;
+}
+
+#namebox {
+	margin-top: 30px;
+}
+
+/* Custom Elastislide Styling */
+
+.demo-1 .elastislide-horizontal {
+	padding: 10px 37px;
+	border-radius: 10px/90px;
+	box-shadow: 
+		0 1px 3px rgba(0, 0, 0, 0.1), 
+		inset -2px 0 3px 2px rgba(255, 255, 255, 0.6), 
+		inset 2px 0 3px 2px rgba(255, 255, 255, 0.6), 
+		inset -10px 0 10px 1px rgba(155, 155, 155, 0.1), 
+		inset 10px 0 10px 1px rgba(155, 155, 155, 0.1);
+}
+
+.demo-1 .elastislide-wrapper:before,
+.demo-1 .elastislide-wrapper:after{
+	content: '';
+	position: absolute;
+	z-index: -2;
+	bottom: 15px;
+	left:  20px;
+	width: 50%;
+	height: 20%;
+	border-radius: 10px/90px;
+	box-shadow: 0 15px 10px rgba(0,0,0,0.7);
+	-webkit-transform: rotate(-3deg);
+	-moz-transform: rotate(-3deg);
+	-ms-transform: rotate(-3deg);
+	-o-transform: rotate(-3deg);
+	transform: rotate(-3deg);
+}
+
+.demo-1 .elastislide-wrapper:after {
+	right: 20px;
+	left: auto;
+	-webkit-transform: rotate(3deg);
+	-moz-transform: rotate(3deg);
+	-ms-transform: rotate(3deg);
+	-o-transform: rotate(3deg);
+	transform: rotate(3deg);
+}
+
+.demo-2 .elastislide-vertical {
+	max-width: 170px;
+	padding: 37px 10px;
+	border-radius: 90px/10px;
+	box-shadow: 
+		0 1px 3px rgba(0, 0, 0, 0.1), 
+		inset -2px 0 3px 2px rgba(255, 255, 255, 0.6), 
+		inset 2px 0 3px 2px rgba(255, 255, 255, 0.6), 
+		inset 0 -10px 10px 1px rgba(155, 155, 155, 0.1), 
+		inset 0 10px 10px 1px rgba(155, 155, 155, 0.1);
+}
+
+.demo-2 .elastislide-vertical:before {
+	top: 30px;
+	bottom: 30px;
+	left: 0;
+	right: 0;
+	content: " ";
+	position: absolute;
+	z-index: -2;
+	box-shadow: 0 0 15px rgba(0,0,0,0.6);
+	border-radius: 20px/160px;
+}
+
+.demo-2 .elastislide-vertical:after {
+	content: " ";
+	position: absolute;
+	z-index: -2;
+}
+
+.demo-3 .elastislide-horizontal {
+	background-color: #000;
+	padding: 30px 60px;
+}
+
+.no-touch .demo-3 .elastislide-horizontal {
+	opacity: 0.8;
+	-webkit-transition: opacity 0.3s ease-in-out;
+	-moz-transition: opacity 0.3s ease-in-out;
+	-ms-transition: opacity 0.3s ease-in-out;
+	-o-transition: opacity 0.3s ease-in-out;
+	transition: opacity 0.3s ease-in-out;
+}
+
+.no-touch .demo-3 .elastislide-horizontal:hover {
+	opacity: 1;
+}
+
+.demo-3 .elastislide-wrapper nav span {
+	background-color: #000;
+}
+
+.demo-3 .elastislide-carousel ul li a{
+	padding: 0 10px;
+}
+
+.demo-3 .elastislide-carousel ul li a img {
+	border-radius: 0;
+	border: none;
+}
+
+.demo-4 .elastislide-horizontal {
+	background-color: transparent;
+	border-radius: 20px 20px 0 0;
+}
+
+.demo-3 .elastislide-horizontal.elastislide-loading,
+.demo-4 .elastislide-horizontal.elastislide-loading {
+	background-image: url(../images/loading_dark.gif);
+}
+
+.demo-4 .elastislide-carousel ul li a{
+	padding: 2px;
+}
+
+.demo-4 .elastislide-carousel ul li a img {
+	border-radius: 10px;
+	border: none;
+	box-shadow: 0 1px 2px #000;
+}
+
+.demo-4 .elastislide-wrapper nav span {
+	background-color: #666;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.2);
+}
+
+.demo-4 .image-preview img {
+	border-radius: 0 0 20px 20px;
+	max-width: 100%;
+	display: block;
+}
+
+.demo-4 .elastislide-carousel ul li.current-img a img {
+	box-shadow: 0 0 3px 2px rgba(62,235,255,0.8);
+}
+
+@media screen and (max-width: 460px) {
+	.demo-3 .elastislide-horizontal {
+		padding: 10px 40px;
+	}
+}
