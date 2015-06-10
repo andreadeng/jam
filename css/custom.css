@@ -33,7 +33,7 @@ a {
     background: black;
     color: white;
     font-size: 18px;
-    width: 180px;
+    width: 150px;
     height: 50px;
     margin-left: auto;
     margin-right: auto;
@@ -56,9 +56,10 @@ a {
     height: 50px;
     background-color: black;
     color: white;
-    font-size: 18px;
+    font-size: 14px;
     padding-top: 12px;
     text-align: center;
+    display: ;
 }
 
 #carousel-bar:hover {
@@ -69,6 +70,8 @@ a {
 	display: ;
 	background-color: ;
 	height: 100%;
+	display: ;
+
 }
 
 #carousel {
